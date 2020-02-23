@@ -1,0 +1,21 @@
+{
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": "*.js",
+            "excludeFiles": ["gulpfile.js", "gulpfile.options.js"],
+            "options": {
+                "tabWidth": 2,
+                "semi": false,
+                "singleQuote": false
+            }
+        },
+        {
+            "files": "package.json",
+            "options": {
+                "tabWidth": 2,
+                "singleQuote": false
+            }
+        }
+    ]
+}
