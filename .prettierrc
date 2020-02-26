@@ -2,7 +2,7 @@
     "tabWidth": 4,
     "overrides": [
         {
-            "files": "*.js",
+            "files": "frontend/**/*.js",
             "excludeFiles": ["gulpfile.js", "gulpfile.options.js"],
             "options": {
                 "tabWidth": 2,
